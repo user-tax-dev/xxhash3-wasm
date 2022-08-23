@@ -1,8 +1,8 @@
 {
   "type": "module",
-  "dependencies": { "coffee_plus": "^0.0.25" },
+  "dependencies": { "coffee_plus": "^0.0.35" },
   "devDependencies": {
-    "@iuser/node-loader": "^0.0.12",
+    "@iuser/node-loader": "^0.0.20",
     "@rmw/thisdir": "^0.0.2",
     "coffeescript": "^2.7.0",
     "source-map-support": "^0.5.21",

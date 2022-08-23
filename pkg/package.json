@@ -1,6 +1,6 @@
 {
   "name": "@iuser/xxhash3-wasm",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "license": "Apache-2.0",
   "repository": "https://github.com/iuser-dev/xxhash3-wasm",
   "author": "i@rmw.link",

@@ -1,18 +1,18 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iuser/node-loader': ^0.0.12
+  '@iuser/node-loader': ^0.0.20
   '@rmw/thisdir': ^0.0.2
-  coffee_plus: ^0.0.25
+  coffee_plus: ^0.0.35
   coffeescript: ^2.7.0
   source-map-support: ^0.5.21
   wasm-opt: ^1.3.0
 
 dependencies:
-  coffee_plus: 0.0.25
+  coffee_plus: 0.0.35
 
 devDependencies:
-  '@iuser/node-loader': 0.0.12
+  '@iuser/node-loader': 0.0.20
   '@rmw/thisdir': 0.0.2
   coffeescript: 2.7.0
   source-map-support: 0.5.21
@@ -20,14 +20,14 @@ devDependencies:
 
 packages:
 
-  /@iuser/node-loader/0.0.12:
-    resolution: {integrity: sha512-xt4OvTv1gPikvzK5hk/FXYXOOmzJqxMvOZ/8ydgR6DfH9gziquImMbLb2p6/eyiccz9rAQNW79E0LzXpbo8f/Q==}
-    dependencies:
-      coffee_plus: 0.0.22
-    dev: true
+  /@iuser/camel/0.0.17:
+    resolution: {integrity: sha512-jtO5S9eY8FXvrwXwA5LCd4VV5sCH16MLkatZQFvdov7MYY6ylk3EbgWcxwXajRFO/m77JLTOU1nHwtpzoxrGjg==}
 
-  /@iuser/snake/0.0.14:
-    resolution: {integrity: sha512-JnNdpNSyYTb+ie4c9p+du5oNKO5HyorwLmWbWjbCLqY4jOAlgPdrJj9OltTmq7Jant1otu8SYNA5JmNjUMfiYg==}
+  /@iuser/node-loader/0.0.20:
+    resolution: {integrity: sha512-VLtzX1ftQ/vkyJ4HnEa2Pl5OD33aq3lwf38mef8ycViKTbS23zjuaXwYIsICeDh1t7qfgoQ9KVTrgj2MO2TufA==}
+    dependencies:
+      coffee_plus: 0.0.32
+    dev: true
 
   /@iuser/walk/0.0.2:
     resolution: {integrity: sha512-fhxi4clPU6ZcbUjyc763yk405Nsf5jU1qXQwBN4AxCrzbS0paHLEr3UJUXOm85ycxHHw2ja1o/k+/Xpmz9N4hw==}
@@ -62,23 +62,25 @@ packages:
       strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
 
-  /coffee_plus/0.0.22:
-    resolution: {integrity: sha512-TRnHQ8uZZy4bvwiGoJ0m98QimsPrAeBLs7TMHTHCnTei1wqnpCMG0DbW3ALh+NIzQGcq+B7553qC7z4mtA0AUg==}
+  /coffee_plus/0.0.32:
+    resolution: {integrity: sha512-JFJT71mwTnmOwJwHiJt/L+wVVtdnHzFllh/Vm/uZjTKtt0vciGjN4ZK9t4VEMDeuD4IgqBfKff6PLdXwvWC3OA==}
     hasBin: true
     dependencies:
-      '@iuser/snake': 0.0.14
+      '@iuser/camel': 0.0.17
       '@iuser/walk': 0.0.2
       coffeescript: 2.7.0
+      lodash-es: 4.17.21
       yargs: 17.5.1
     dev: true
 
-  /coffee_plus/0.0.25:
-    resolution: {integrity: sha512-MVqmm9INVRC7lWZLzkQFR2f1OSEzF7EzGDpF3ePMgMBs7nc0J6ssc5hk0v7SzxkuN5r+nDvDPm49rcg64TnlAg==}
+  /coffee_plus/0.0.35:
+    resolution: {integrity: sha512-lG0Ns0GLipnXJ7aBcLQXv5SESdnzTErYGEpk7TEEZYxnVZzkT3rnwnvXpV2V/f/936BdpeNnndiaoaiIWrvcJw==}
     hasBin: true
     dependencies:
-      '@iuser/snake': 0.0.14
+      '@iuser/camel': 0.0.17
       '@iuser/walk': 0.0.2
       coffeescript: 2.7.0
+      lodash-es: 4.17.21
       yargs: 17.5.1
     dev: false
 
@@ -117,6 +119,9 @@ packages:
   /is-fullwidth-code-point/3.0.0:
     resolution: {integrity: sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==}
     engines: {node: '>=8'}
+
+  /lodash-es/4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
 
   /minipass/3.3.4:
     resolution: {integrity: sha512-I9WPbWHCGu8W+6k1ZiGpPu0GkoKBeorkfKNuAFBNS1HNFJvke82sxvI5bzcCNpWPorkOO5QQ+zomzzwRxejXiw==}
