@@ -1,4 +1,4 @@
-<!-- EDIT /Users/z/iuser/xxhash3-wasm/README.md -->
+<!-- EDIT /Users/z/user/xxhash3-wasm/README.md -->
 
 # xxhash3-wasm
 
